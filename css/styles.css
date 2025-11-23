@@ -491,8 +491,6 @@ img {
 }
 @media screen and (min-width: 768px) {
   .section-our-values-list {
-    
-    
     gap: 72px 24px;
   }
   .section-our-values-post {
@@ -504,9 +502,9 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-.section-our-values-list {
+  .section-our-values-list {
     display: flex;
-    flex-wrap: ;
+    flex-wrap: nowrap;
     gap: 72px 24px;
   }
   .section-our-values-post {
@@ -515,5 +513,4 @@ img {
   .section-our-values-post-title {
     text-align: left;
   }
-}
 }
